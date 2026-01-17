@@ -40,7 +40,7 @@ def main():
     employees = load_employees(DATA_DIR / "employees.csv")
     tasks = load_tasks(DATA_DIR / "tasks.csv")
 
-    task = tasks["T01"]  # Build API
+    task = tasks["T04"]  # Train Recommendation Model
     recs = recommend_employees(task, employees, top_k=3)
 
     print(f"Task: {task['title']} | Required skills: {task['required_skills']}")
