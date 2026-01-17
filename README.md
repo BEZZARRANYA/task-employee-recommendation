@@ -33,3 +33,13 @@ The hybrid approach significantly outperforms the baseline, demonstrating the ef
 - Extend evaluation with larger datasets
 - Explore learning-to-rank or neural recommendation models
 - Integrate the recommendation module into a full Flask-based management system
+## Results (Employee Performance Prediction)
+
+We evaluated multiple machine learning models on historical task assignment data.
+
+| Model                | Accuracy | Precision | Recall | F1-score |
+|---------------------|----------|-----------|--------|----------|
+| Logistic Regression | 0.625    | 0.833     | 0.714  | 0.769    |
+| Random Forest       | 0.875    | 0.875     | 1.000  | 0.933    |
+
+The Random Forest model significantly outperformed the baseline Logistic Regression model, demonstrating the effectiveness of non-linear modeling and feature interaction (e.g., skill matching) in predicting task success.
