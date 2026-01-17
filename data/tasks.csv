@@ -1,0 +1,4 @@
+task_id,title,category,required_skills,priority,estimated_hours
+T01,Build API,backend,"python,flask",5,30
+T02,Data Analysis,data,"python,ml",4,20
+T03,Frontend Page,frontend,"react,ui",3,15
